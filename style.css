@@ -1,0 +1,80 @@
+.one{
+    width: 200px;
+    height: 100px;
+    background: blue;
+    grid-area: one;
+    justify-self: center;
+    align-self: center;
+}
+.two{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    grid-area: two;
+    justify-self: center;
+    align-self: center;
+}
+.three{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    grid-area: three;
+    justify-self: center;
+    align-self: center;
+}
+.four{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    grid-area: four;
+    justify-self: center;
+    align-self: center;
+}
+
+.five{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    grid-area: five;
+    justify-self: center;
+    align-self: center;
+}
+.six{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    grid-area: six;
+    justify-self: center;
+    align-self: center;
+}
+.seven{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    grid-area: seven;
+    justify-self: center;
+    align-self: center;
+}
+.eight{
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    grid-area: eight;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    grid-template-areas:
+    "one two three four"
+    "five six seven eight";
+}
